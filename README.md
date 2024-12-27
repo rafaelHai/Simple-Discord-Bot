@@ -27,6 +27,8 @@ A simple, modular Discord bot built using **Discord.js v14**, designed for easy 
      cp config.json.example config.json
      ```
 
+      Or you can do it manually: just rename the `config.json.example` file to `config.json`.
+     
    - Open `config.json` and fill in your bot details:
      ```json
      {
