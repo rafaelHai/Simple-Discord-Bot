@@ -1,11 +1,10 @@
+const { Events } = require('discord.js');
+
 module.exports = {
     enabled: true,
-    name: 'guildMemberAdd',
+    name: Events.GuildMemberAdd, // Corrected event name
     once: false,
-
-    /**
-     * @param {import('discord.js').GuildMember} member 
-     */
+    
     execute(member) {
         console.log(`✅ User Joined: ${member.user.tag} (ID: ${member.id})`);
     }
