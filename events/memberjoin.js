@@ -2,7 +2,7 @@ const { Events } = require('discord.js');
 
 module.exports = {
     enabled: true,
-    name: Events.GuildMemberAdd, // Corrected event name
+    name: Events.GuildMemberAdd,
     once: false,
     
     execute(member) {
